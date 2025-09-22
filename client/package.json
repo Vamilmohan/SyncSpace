@@ -43,5 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://syncspace-bwe8.onrender.com"
+  "proxy": "http://localhost:5001"
 }
