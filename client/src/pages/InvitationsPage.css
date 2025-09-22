@@ -1,0 +1,51 @@
+.invitations-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.invitations-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.invitation-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invitation-details p {
+  margin: 0;
+  color: #4A5568;
+}
+
+.invitation-details p strong {
+  color: #2D3748;
+}
+
+.invitation-actions button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.accept-button {
+  background-color: #38a169; /* Green */
+  color: white;
+}
+
+.accept-button:hover {
+  background-color: #2f855a;
+}
+
+/* We can add a decline button style later if we implement that feature */

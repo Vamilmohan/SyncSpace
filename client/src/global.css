@@ -1,0 +1,31 @@
+/* global.css */
+:root {
+  --background-primary: #1E1F21; /* Main dark background */
+  --background-secondary: #2A2C2E; /* Sidebar and card backgrounds */
+  --background-tertiary: #36383A; /* Column backgrounds */
+  --text-primary: #FFFFFF;
+  --text-secondary: #A0AEC0; /* Lighter gray text */
+  --accent-primary: #7C3AED; /* Purple accent */
+  --accent-secondary: #3B82F6; /* Blue accent */
+  --border-color: rgba(255, 255, 255, 0.12);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-primary);
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--accent-secondary);
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

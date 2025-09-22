@@ -1,0 +1,108 @@
+.board-page-container {
+  padding: 0 1rem;
+}
+
+.board-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.board-header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.board-share-section {
+  display: flex;
+  align-items: center;
+}
+
+.board-share-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--accent-primary);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.kanban-board {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 1rem; /* for scrollbar */
+}
+
+.column {
+  width: 300px;
+  flex-shrink: 0;
+  background-color: var(--background-tertiary);
+  border-radius: 8px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.column-header {
+  padding: 0.5rem;
+  font-weight: bold;
+  color: var(--text-secondary);
+}
+
+.task-list {
+  flex-grow: 1;
+  min-height: 50px;
+  padding: 0.5rem;
+  overflow-y: auto;
+}
+
+.task-card {
+  background-color: var(--background-secondary);
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: grab;
+  border: 1px solid var(--border-color);
+}
+
+.task-card-tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  background-color: var(--accent-secondary);
+  color: white;
+}
+
+.task-card-title {
+  margin: 0.5rem 0;
+}
+
+.task-card-footer {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-secondary);
+}
+
+.task-card-stats {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.task-card-stats span {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,135 @@
+.auth-page-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.auth-branding-section {
+  width: 50%;
+  background-color: var(--background-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add a placeholder for a logo or branding text */
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+.auth-form-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-primary);
+}
+
+.auth-form-box {
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 450px;
+}
+
+.auth-form-box h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.auth-form-box p {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.social-signup-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social-btn {
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text-primary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.divider-text {
+  text-align: center;
+  color: var(--text-secondary);
+  margin: 1.5rem 0;
+  position: relative;
+}
+.divider-text::before, .divider-text::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: var(--border-color);
+}
+.divider-text::before { left: 0; }
+.divider-text::after { right: 0; }
+
+.auth-form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.auth-form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.auth-form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background-color: var(--background-secondary);
+  color: var(--text-primary);
+}
+.auth-form-button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--accent-primary);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.auth-form-switch-link {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+.password-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input-wrapper input {
+  padding-right: 3.5rem; /* Make space for the button */
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+}
